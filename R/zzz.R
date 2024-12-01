@@ -38,7 +38,8 @@
 julia_setup <- function(JULIA_HOME = NULL, verbose = TRUE,
                         installJulia = FALSE,
                         install = TRUE, force = FALSE, useRCall = TRUE,
-                        rebuild = FALSE, sysimage_path = NULL) {
+                        rebuild = FALSE, sysimage_path = NULL,
+                        version = "latest") {
     ## libR <- paste0(R.home(), '/lib')
     ## system(paste0('export LD_LIBRARY_PATH=', libR, ':$LD_LIBRARY_PATH'))
 
@@ -55,7 +56,7 @@ julia_setup <- function(JULIA_HOME = NULL, verbose = TRUE,
 
     if (is.null(JULIA_HOME)) {
         if (isTRUE(installJulia)) {
-            install_julia()
+            install_julia(version)
             JULIA_HOME <- julia_locate(JULIA_HOME)
             if (is.null(JULIA_HOME))
                 stop("Julia is not found and automatic installation failed.")
