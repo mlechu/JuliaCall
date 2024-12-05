@@ -2,7 +2,7 @@ Package: JuliaCall
 Type: Package
 Title: Seamless Integration Between R and 'Julia'
 Version: 0.17.6
-Date: 2022-09-08
+Date: 2024-12-05
 Authors@R: c(
     person(given = "Christopher", family = "Rackauckas", email = "accounts@chrisrackauckas.com", role = c("aut", "cre")),
     person("Changcheng", "Li", , "cxl508@psu.edu", c("aut", "cre")),
