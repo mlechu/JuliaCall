@@ -1,6 +1,8 @@
-# JuliaCall 0.17.5.9000
+# JuliaCall 0.17.6
 
-* Fix breakage with **knitr** 1.44 when using Plots in a `julia` chunk ([#209](https://github.com/Non-Contradiction/JuliaCall/issues/209)).
+* Fix breakage with **knitr** 1.44 when using Plots in a `julia` chunk ([#209](https://github.com/JuliaInterop/JuliaCall/issues/209)).
+* `julia_setup` now allows for passing `version` to override the default automatically downloaded version from `"latest"`
+* Support for Julia v1.11 was fixed ([#237](https://github.com/JuliaInterop/JuliaCall/pull/237))
 
 # JuliaCall 0.17.5
 
