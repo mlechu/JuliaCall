@@ -20,8 +20,8 @@ Description: Provides an R interface to 'Julia',
     using a high-level programming language like 'Julia'.
 Depends: R (>= 3.4.0)
 License: MIT + file LICENSE
-URL: https://github.com/Non-Contradiction/JuliaCall
-BugReports: https://github.com/Non-Contradiction/JuliaCall/issues
+URL: https://github.com/JuliaInterop/JuliaCall
+BugReports: https://github.com/JuliaInterop/JuliaCall/issues
 Encoding: UTF-8
 Imports: utils,
     Rcpp (>= 0.12.7),
@@ -31,7 +31,7 @@ RoxygenNote: 7.1.2
 LinkingTo: Rcpp
 NeedsCompilation: yes
 ByteCompile: yes
-SystemRequirements: Julia >= 0.6.0, RCall.jl
+SystemRequirements: Julia >= 1.0.0, RCall.jl
 Suggests: testthat,
     rmarkdown,
     rappdirs,
