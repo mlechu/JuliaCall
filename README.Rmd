@@ -6,7 +6,7 @@ output: github_document
 
 # JuliaCall for Seamless Integration of R and Julia
 
-[![R build status](https://github.com/Non-Contradiction/JuliaCall/workflows/R-CMD-check/badge.svg)](https://github.com/Non-Contradiction/JuliaCall/actions)
+[![R build status](https://github.com/JuliaInterop/JuliaCall/workflows/R-CMD-check/badge.svg)](https://github.com/JuliaInterop/JuliaCall/actions)
 [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/JuliaCall)](https://cran.r-project.org/package=JuliaCall)
 [![](https://cranlogs.r-pkg.org/badges/JuliaCall)](https://cran.r-project.org/package=JuliaCall)
 [![](https://cranlogs.r-pkg.org/badges/grand-total/JuliaCall)](https://cran.r-project.org/package=JuliaCall)
@@ -29,7 +29,7 @@ which is a high-level, high-performance dynamic programming language
 for numerical computing, see <https://julialang.org/> for more information.
 Below is an image for [Mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set).
 JuliaCall brings **more than 100 times speedup** of the calculation!
-See <https://github.com/Non-Contradiction/JuliaCall/tree/master/example/mandelbrot> for more information.
+See <https://github.com/JuliaInterop/JuliaCall/tree/master/example/mandelbrot> for more information.
 
 ```{r, echo = FALSE}
 knitr::opts_chunk$set(
@@ -39,7 +39,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-![](https://non-contradiction.github.io/JuliaCall/articles/mandelbrot.png)
+![](https://JuliaInterop.github.io/JuliaCall/articles/mandelbrot.png)
 
 ## Installation
 
@@ -76,7 +76,7 @@ You can also setup Julia manually by downloading a generic binary from
 You can get the development version of `JuliaCall` by
 
 ```{r eval=FALSE}
-devtools::install_github("Non-Contradiction/JuliaCall")
+devtools::install_github("JuliaInterop/JuliaCall")
 ```
 
 ## Basic Usage
@@ -159,7 +159,7 @@ To work around it, try setting `JULIA_BINDIR=/usr/bin` in [`.Renviron`](https://
 julia_help("sqrt")
 ```
 
-- The GitHub Pages for this repository host the documentation for the development version of `JuliaCall`: <https://non-contradiction.github.io/JuliaCall/>.
+- The GitHub Pages for this repository host the documentation for the development version of `JuliaCall`: <https://JuliaInterop.github.io/JuliaCall/>.
 
 - Also, you are more than welcome to contact me about `JuliaCall` at <lch34677@gmail.com> or <cxl508@psu.edu>.
 
@@ -178,16 +178,16 @@ There are some examples:
 - [`autodiffr`](https://github.com/Non-Contradiction/autodiffr) provides automatic differentiation to native `R` functions by wrapping `Julia` packages [`ForwardDiff.jl`](https://github.com/JuliaDiff/ForwardDiff.jl) and [`ReverseDiff.jl`](https://github.com/JuliaDiff/ReverseDiff.jl) through `JuliaCall`, which is a work in progress.
 
 If you have any issues in developing an `R` package using `JuliaCall`,
-you may report it using the link: <https://github.com/Non-Contradiction/JuliaCall/issues/new>, or email me at <lch34677@gmail.com> or <cxl508@psu.edu>.
+you may report it using the link: <https://github.com/JuliaInterop/JuliaCall/issues/new>, or email me at <lch34677@gmail.com> or <cxl508@psu.edu>.
 
 ## Suggestion, Issue Reporting, and Contributing
 
 `JuliaCall` is under active development now.
 Any suggestion or issue reporting is welcome!
-You may report it using the link: <https://github.com/Non-Contradiction/JuliaCall/issues/new>, or email me at <lch34677@gmail.com> or <cxl508@psu.edu>.
-You are welcome to use the [issue template](https://github.com/Non-Contradiction/JuliaCall/blob/master/.github/ISSUE_TEMPLATE/bug_report.md)
-and the [pull request template](https://github.com/Non-Contradiction/JuliaCall/blob/master/.github/pull_request_template.md).
-The [contributing guide](https://github.com/Non-Contradiction/JuliaCall/blob/master/.github/CONTRIBUTING.md) provides some guidance for making contributions.
+You may report it using the link: <https://github.com/JuliaInterop/JuliaCall/issues/new>, or email me at <lch34677@gmail.com> or <cxl508@psu.edu>.
+You are welcome to use the [issue template](https://github.com/JuliaInterop/JuliaCall/blob/master/.github/ISSUE_TEMPLATE/bug_report.md)
+and the [pull request template](https://github.com/JuliaInterop/JuliaCall/blob/master/.github/pull_request_template.md).
+The [contributing guide](https://github.com/JuliaInterop/JuliaCall/blob/master/.github/CONTRIBUTING.md) provides some guidance for making contributions.
 
 ### Checking `JuliaCall` Package
 
@@ -210,7 +210,7 @@ To check and test the `JuliaCall` package, you need to have the source package. 
 
 ## Code of Conduct
 
-Please note that the `JuliaCall` project is released with a [Contributor Code of Conduct](https://github.com/Non-Contradiction/JuliaCall/blob/master/CODE_OF_CONDUCT.md). By contributing to this project, you agree to abide by its terms.
+Please note that the `JuliaCall` project is released with a [Contributor Code of Conduct](https://github.com/JuliaInterop/JuliaCall/blob/master/CODE_OF_CONDUCT.md). By contributing to this project, you agree to abide by its terms.
 
 ## Citing
 
