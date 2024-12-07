@@ -4,8 +4,8 @@ Title: Seamless Integration Between R and 'Julia'
 Version: 0.17.6
 Date: 2024-12-05
 Authors@R: c(
-    person(given = "Christopher", family = "Rackauckas", email = "accounts@chrisrackauckas.com", role = c("aut", "cre")),
     person("Changcheng", "Li", , "cxl508@psu.edu", c("aut", "cre")),
+    person(given = "Christopher", family = "Rackauckas", email = "accounts@chrisrackauckas.com", role = c("ctb")),
     person("Randy", "Lai", role = "ctb"),
     person("Dmitri", "Grominski", role = "ctb"),
     person("Nagi", "Teramo", role = "ctb")
